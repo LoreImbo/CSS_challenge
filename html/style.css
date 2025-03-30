@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+body {
+    margin: 0px;
+    font-family: Montserrat;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 500px;
+    width: 1000px;
+    background-image: url(../img/mont-blanc-mountain.jpg)
+}
+
+h1 {
+    font-family: Prata;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: Prata;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p a {
+    font-weight: 600;
+    font-style: italic;  
+}
+
+h6 {
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(to right, #d8a7e0, #6984f0);
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+li a {
+    text-decoration: none;
+    color: #d8a7e0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
